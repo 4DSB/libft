@@ -6,7 +6,7 @@
 /*   By: amittal <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/06 00:05:28 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/06 00:59:52 by amittal          ###   ########.fr       */
+/*   Updated: 2017/06/06 01:07:13 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	char *d;
-	char *s;
+	char 	*d;
+	char 	*s;
 
 	d = dst;
 	s = (char *)src;
@@ -23,23 +23,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 		*d++ = *s++;
 	return (dst);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
