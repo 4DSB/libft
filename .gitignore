@@ -1,7 +1,6 @@
-# Temp Files #
-##############
-*.c~
-#*#
-.#*
-a.out
+!.*c
 !.gitignore
+!srcs/
+!srcs/*.c
+!Makefile
+!*.h
