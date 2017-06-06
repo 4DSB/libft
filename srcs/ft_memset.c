@@ -6,7 +6,7 @@
 /*   By: amittal <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 10:54:49 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/05 20:54:05 by amittal          ###   ########.fr       */
+/*   Updated: 2017/06/05 22:15:57 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,21 +14,20 @@
 
 void	*ft_memset(void *b, int c, size_t len)
 {
-	char *ret;
-	size_t i;
-	ret = b;
-	i = 0;
-	//write(1, ret, 20);
-	//while(b)
-	//{
-	//	str_len++;
-	//}
-	while (i < len)
-	{
-		*(ret + i++) = c;
-	}
+	unsigned char	*rep;
+
+	rep = b;
+	while (len--)
+		*rep++ = (unsigned char)c;
 	return (b);
 }
+
+
+
+
+
+
+
 
 
 
