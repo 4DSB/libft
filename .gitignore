@@ -1,3 +1,5 @@
+src/*.c~
+Makefile~
 !.*c
 !.gitignore
 !srcs/
