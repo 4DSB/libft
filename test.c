@@ -6,7 +6,7 @@
 /*   By: amittal <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 12:19:13 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/06 01:01:29 by amittal          ###   ########.fr       */
+/*   Updated: 2017/06/06 21:54:37 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,6 +63,16 @@ int main()
 	printf("%s\n", t2);
 	ps();
 
+	ps();
+	printf("ft_memccpy test\n");
+	char test3[15] = "ft_memccpy test";
+	char t3[15] = "FTMEMCCPY TEST";
+	print_bytes(test3, 15);
+	print_bytes(t3, 15);
+	print_bytes(ft_memccpy(t3, test3, '_', 13), 13);
+	print_bytes(test3, 15);
+	print_bytes(t3, 15);
+	ps();
 }
 
 

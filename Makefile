@@ -6,14 +6,15 @@
 #    By: amittal <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/06/05 10:11:02 by amittal           #+#    #+#              #
-#    Updated: 2017/06/06 00:13:34 by amittal          ###   ########.fr        #
+#    Updated: 2017/06/06 20:58:13 by amittal          ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 NAME		=	libft.a
 CFLAGS		=	-Wall -Wextra -Werror -I. -c
 FILES		=	ft_memset.c \
 				ft_bzero.c \
-				ft_memcpy.c
+				ft_memcpy.c \
+				ft_memccpy.c
 OBJ 		= 	$(FILES:%.c=%.o)
 vpath %.c srcs
 all: $(NAME)
