@@ -1,19 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd.c                                        :+:      :+:    :+:   */
+/*   ft_isupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amittal <amittal@student.42.us.org>        +#+  +:+       +#+        */
+/*   By: amittal <amittal@student.42.us.org>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/20 13:58:47 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/20 14:40:25 by amittal          ###   ########.fr       */
+/*   Created: 2017/06/20 14:23:52 by amittal           #+#    #+#             */
+/*   Updated: 2017/06/20 14:39:13 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <libft.h>
 
-void	ft_lstadd(t_list **alst, t_list *new)
+int		ft_isupper(int c)
 {
-	new->next = *alst;
-	*alst = new;
+	return (c <= 'Z' && c >= 'A');
 }

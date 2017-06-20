@@ -6,7 +6,7 @@
 /*   By: amittal <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 12:32:39 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/20 14:03:52 by amittal          ###   ########.fr       */
+/*   Updated: 2017/06/20 14:36:51 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,10 @@ void				ft_lstadd(t_list **alst, t_list *n);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 
-
-
+int			ft_islower(int c);
+int			ft_isupper(int c);
+int     	ft_countwords(char const *str, char c);
+int			ft_intlen(int num);
+int			ft_strstartswith(char *s1, char *s2);
 
 #endif

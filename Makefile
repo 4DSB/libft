@@ -6,7 +6,7 @@
 #    By: amittal <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/06/05 10:11:02 by amittal           #+#    #+#              #
-#    Updated: 2017/06/20 14:06:14 by amittal          ###   ########.fr        #
+#    Updated: 2017/06/20 14:36:49 by amittal          ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 NAME		=	libft.a
@@ -69,6 +69,12 @@ FILES		=	ft_memset.c \
 				ft_lstiter.c \
 				ft_lstmap.c \
 				ft_lstnew.c \
+				ft_islower.c \
+				ft_isupper.c \
+				ft_countwords.c \
+				ft_intlen.c \
+				ft_strstartswith.c
+
 
 OBJ 		= 	$(FILES:%.c=%.o)
 vpath %.c srcs

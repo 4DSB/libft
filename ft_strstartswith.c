@@ -1,19 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd.c                                        :+:      :+:    :+:   */
+/*   ft_strstartswith.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: amittal <amittal@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/06/20 13:58:47 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/20 14:40:25 by amittal          ###   ########.fr       */
+/*   Created: 2017/06/20 14:36:26 by amittal           #+#    #+#             */
+/*   Updated: 2017/06/20 14:37:18 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
-
-void	ft_lstadd(t_list **alst, t_list *new)
+int		ft_strstartswith(char *s1, char *s2)
 {
-	new->next = *alst;
-	*alst = new;
+	int	i;
+
+	i = -1;
+	while (s2[++i])
+		if (s1[i] != s2[i])
+			return (0);
+	return (1);
 }
