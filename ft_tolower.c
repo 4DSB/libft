@@ -6,16 +6,11 @@
 /*   By: amittal <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/08 10:22:05 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/08 18:10:09 by amittal          ###   ########.fr       */
+/*   Updated: 2017/06/20 14:50:08 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <libft.h>
-
-static int		ft_isupper(int c)
-{
-	return (c <= 'Z' && c >= 'A');
-}
 
 int				ft_tolower(int c)
 {
