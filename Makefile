@@ -6,7 +6,7 @@
 #    By: amittal <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/06/05 10:11:02 by amittal           #+#    #+#              #
-#    Updated: 2017/06/08 19:55:02 by amittal          ###   ########.fr        #
+#    Updated: 2017/06/20 14:06:14 by amittal          ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 NAME		=	libft.a
@@ -63,7 +63,12 @@ FILES		=	ft_memset.c \
                 ft_putnbr_fd.c \
                 ft_putstr_fd.c \
                 ft_putendl_fd.c \
-
+				ft_lstadd.c \
+				ft_lstdel.c \
+				ft_lstdelone.c \
+				ft_lstiter.c \
+				ft_lstmap.c \
+				ft_lstnew.c \
 
 OBJ 		= 	$(FILES:%.c=%.o)
 vpath %.c srcs
