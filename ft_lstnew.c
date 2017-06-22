@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amittal <amittal@student.42.us.org>         +#+  +:+       +#+        */
+/*   By: amittal <amittal@student.42.us.org>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/20 14:01:27 by amittal           #+#    #+#             */
 /*   Updated: 2017/06/20 14:39:39 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 t_list	*ft_lstnew(void const *content, size_t content_size)
 {

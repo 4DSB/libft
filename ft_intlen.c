@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <libft.h>
+#include "libft.h"
 
 static int		higher_nums(int num)
 {
@@ -27,7 +27,7 @@ static int		higher_nums(int num)
 	return (6);
 }
 
-int		ft_intlen(int num)
+int				ft_intlen(int num)
 {
 	if (num >= 100000)
 		return (higher_nums(num));

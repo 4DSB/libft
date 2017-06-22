@@ -6,11 +6,11 @@
 #    By: amittal <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/06/05 10:11:02 by amittal           #+#    #+#              #
-#    Updated: 2017/06/20 14:36:49 by amittal          ###   ########.fr        #
+#    Updated: 2017/06/20 18:37:41 by amittal          ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 NAME		=	libft.a
-CFLAGS		=	-Wall -Wextra -Werror -I. -c
+CFLAGS		=	-Wall -Wextra -Werror
 FILES		=	ft_memset.c \
 				ft_bzero.c \
                 ft_memcpy.c \
@@ -77,32 +77,21 @@ FILES		=	ft_memset.c \
 
 
 OBJ 		= 	$(FILES:%.c=%.o)
-vpath %.c srcs
+HDR 		= 	libft.h
+
 all: $(NAME)
 
-copy:
-		cp -f srcs/*.c .
-		cp -f additional_functions/*.c .
-#cp -f bonus-funcs/*.c .
-
-
-# This won't run if the .o files don't exist or are not modified
-$(NAME): $(OBJ)
-	ar rcs $(NAME) $(OBJ)
-
-# This won't run if the source files don't exist or are not modified
-$(OBJ): $(FILES)
-	gcc $(CFLAGS) $(FILES)
+$(NAME):
+	gcc -c $(FLAGS) $(FILES) $(HDR)
+	ar rc $(NAME) $(OBJ)
+	ranlib $(NAME)
 
 clean:
-	rm -f $(OBJ)
-# comment this line if you don't want it to remove the source files from the root
+	/bin/rm -f $(OBJ)
 
 fclean: clean
-	rm -f $(NAME)
+	/bin/rm -f $(NAME)
 
 re: fclean all
 
-# I use .PHONY to make sure that gnu make will still run even if files called
-# clean / fclean / all and re already exist in the directory
 .PHONY: clean fclean all re
