@@ -10,6 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to a list.
+**				2. The address of a function to be applied to each link.
+** Operation: 	Applies a funtion to each element in a list.
+** Approach: 	If the applied function is unsuccessful, returns 0.
+** Return: 		1 if the funtion was successfully applied to all elements.
+*/
+
 #include <string.h>
 
 #include "libft.h"

@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The address of a pointer to the first link of a list.
+**				2. The link to add at the beginning of the list.
+** Operation: 	Adds a new element at the beginning of the list.
+** Approach: 	If the address doesn't exist exit the function returning void.
+**				Else insert the element to the beginning of the list.
+** Return: 		None.
+*/
+
 #include "libft.h"
 
 void	ft_lstadd(t_list **alst, t_list *new)

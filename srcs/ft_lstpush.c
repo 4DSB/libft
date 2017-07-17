@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. A pointer’s to the first link of a list.
+**				2. A new element that needs to be pushed
+** Operation: 	Appends(in the end) an element to the the list.
+** Return: 		None.
+*/
+
 #include "libft.h"
 
 void	ft_lstpush(t_list **alst, t_list *new)

@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. A pointer’s to the first link of a list.
+** Operation: 	Reverses all elements of a list.
+** Approach:	Instead of moving, just changing the ->next addresses.
+** Return: 		NULL if an empty list is passed.
+*/
+
 #include <string.h>
 
 #include "libft.h"

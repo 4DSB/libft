@@ -10,6 +10,21 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The content to put in the new link.
+**				2. The size of the content of the new link.
+** Operation: 	Allocates (with malloc(3)) and returns a “fresh” link.
+**				The variables content and content_size of the new link are
+**				initialized by copy of the parameters of the function.
+**				If the parameter content is nul, the variable content is
+**				initialized to	NULL and the variable content_size is
+**				initialized to 0 even if the parameter content_size isn’t.
+**				The variable next is initialized to NULL.
+** Approach:	Uses a recursive approach of applying functions and malloc.
+** Return: 		The new list.
+**				If the allocation fails, the function returns NULL.
+*/
+
 #include <stdlib.h>
 
 #include "libft.h"

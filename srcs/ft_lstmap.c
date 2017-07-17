@@ -10,6 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. A pointer’s to the first link of a list.
+**				2. The address of a function to apply to each link of a list.
+** Operation: 	Iterates a list lst and applies the function f to each link to
+**				create a “fresh” list (using malloc(3)) resulting from the
+**				successive applications of f.
+** Return: 		The new list.
+**				If the allocation fails, the function returns NULL.
+*/
+
 #include <string.h>
 
 #include "libft.h"

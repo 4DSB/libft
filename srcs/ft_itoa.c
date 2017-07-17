@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	an integer.
+** Operation: 	converts integer to a allocated string ending with '\0'.
+** Approach: 	Taking modulo of the number - inserting it to the string -
+** 			 	reversing the string as the numbers are in reverse order.
+** Return: 		a “fresh” string ending with ’\0’.
+** 				If the allocation fails, the function returns NULL.
+*/
+
 #include <stdlib.h>
 
 #include "libft.h"

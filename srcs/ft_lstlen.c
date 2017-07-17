@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to a list.
+** Operation: 	Calculates the length of the list.
+** Approach: 	Iterates through a list and increments a counter.
+** Return: 		length of list.
+*/
+
 #include <string.h>
 #include "libft.h"
 
