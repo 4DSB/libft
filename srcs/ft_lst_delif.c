@@ -10,6 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The address of a pointer to the first link of a list.
+**				2.
+**				3.
+**				4. 
+** Operation: 	.
+** Approach: 	.
+** Return: 		.
+*/
+
 #include "libft.h"
 
 void	ft_lst_delif(

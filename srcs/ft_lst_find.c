@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to the first link of a list.
+**				2.
+**				3.
+** Operation: 	.
+** Approach: 	.
+** Return: 		.
+*/
+
 #include "libft.h"
 
 t_list	*ft_lst_find(t_list *begin_list, void *data_ref, int (*cmp)())
