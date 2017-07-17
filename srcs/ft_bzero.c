@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument: pointer to a string and an integer.
+** Operation: Writes 'n' zeroed bytes to the string 's'. 
+** If n is zero, ft_bzero does nothing.
+** Unsigned char is being used as opration needs to be performed byte by byte.
+*/
+
 #include <string.h>
 
 #include "libft.h"

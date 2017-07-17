@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument: an integer.
+** Operation: counting number of digits.
+** Return: number of digits.
+*/
+
 #include <string.h>
 
 #include "libft.h"

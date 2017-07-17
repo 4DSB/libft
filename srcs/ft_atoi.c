@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument: pointer to a string.
+** Operation: Converts the initial portion of the string to int.
+** Return: an integer, hence limited by max and min int values.
+** Approach: Assuming the number is negetive and changing the sign if required.
+*/
+
 #include "libft.h"
 
 int		ft_atoi(char *str)

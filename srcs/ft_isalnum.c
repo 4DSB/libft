@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument: an integer which is the ASCII represented as unsigned char or EOF.
+** Operation: tests if value of character for which isalpha or isdigit is true.
+** Return: 1 if true 0 if false.
+*/
+
 #include "libft.h"
 
 int		ft_isalnum(int c)

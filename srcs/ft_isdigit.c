@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument: an integer which is the ASCII represented as unsigned char or EOF.
+** Operation: tests for a decimal digit character.
+** Return: 1 if true 0 if false.
+*/
+
 #include "libft.h"
 
 int		ft_isdigit(int c)

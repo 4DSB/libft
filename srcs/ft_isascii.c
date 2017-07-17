@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument: an integer which is the ASCII represented as unsigned char or EOF.
+** Operation: tests for an ASCII character, between 0 and octal 0177 inclusive.
+** Return:  1 if true 0 if false.
+*/
+
 #include "libft.h"
 
 int		ft_isascii(int c)

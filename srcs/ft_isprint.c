@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument: an integer which is the ASCII represented as unsigned char or EOF.
+** Operation: tests for any printing character, including space (` ').
+** Return: 1 if true 0 if false.
+*/
+
 #include "libft.h"
 
 int		ft_isprint(int c)
