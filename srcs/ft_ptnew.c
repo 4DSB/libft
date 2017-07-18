@@ -10,6 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. X-axis coordinate.
+**				2. Y-axis coordinate.
+** Operation:	Uses the new struct type s_point(typedef: t_point) which has
+**				two integer variables. Creates a new list and substitutes the
+**				parameters value with x and y.
+** Return:		Returns a pointer to the new list.
+**				NULL, if unable to allocate the space for the new list.
+*/
+
 #include <string.h>
 #include <stdlib.h>
 
