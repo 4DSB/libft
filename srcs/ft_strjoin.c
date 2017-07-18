@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The prefix string..
+**				2. The suffix string.
+** Operation:	Allocates (with malloc(3)) and returns a “fresh” string ending
+**				with ’\0’, result of the concatenation of s1 and s2. 
+** Return:		The “fresh” string result of the concatenation of the 2 strings..
+**				NILL, if allocation fails.
+*/
+
 #include <string.h>
 
 #include "libft.h"

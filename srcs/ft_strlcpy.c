@@ -10,6 +10,22 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to destination string.
+**				2. Pointer to source string.
+**				3. length of characters to be copied
+** Operation:	Copy at most len characters from src into dst.  If src is less
+**				than len characters long, the remainder of dst is filled with
+**				`\0' characters.  Otherwise, dst is not terminated.
+**				The source and destination strings should not overlap, as the
+**				behavior is undefined
+** Approach: 	Standard C Library Function, so followed man.
+**				function appends the NUL-terminated string src to the end of dst.
+**				It will append at most size - strlen(dst) - 1 bytes,
+**				NUL-terminating the result
+** Return:		The total length of the string they tried to create that means
+**				the length of src.
+*/
 #include <string.h>
 
 #include "libft.h"

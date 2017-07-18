@@ -10,6 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to first string.
+**				2. Pointer to second string.
+** Operation:	Lexicographically compare the null-terminated strings s1 and s2.
+** Approach:	Standard C library function, hence followed man page.
+**				The comparison is done using unsigned characters, so that `\200'
+**				is greater than `\0'.
+** Return:		an integer greater than, equal to, or less than 0, according as
+**				the string s1 is greater than, equal to, or less than the string s2.
+*/
+
 #include "libft.h"
 
 int		ft_strcmp(const char *s1, const char *s2)

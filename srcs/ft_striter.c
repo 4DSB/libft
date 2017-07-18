@@ -10,6 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to a string.
+**				2. Pointer to addres of a function which takes char *.
+** Operation:	Simple function to apply function f to the pointer of every 
+**				charater present in	string s.
+** Return:		None.
+*/
+
 #include "libft.h"
 
 void	ft_striter(char *s, void (*f)(char *))

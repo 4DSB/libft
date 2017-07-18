@@ -10,6 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. String to be queried in.
+**				2. String to be queried.
+** Operation:	locates the first occurrence of the null-terminated string
+**				query in the null-terminated string str.
+** Approach:	Standard C library function, hence followed man.
+** Return:		If query is an empty string, str is returned.
+**				If query occurs nowhere in str, NULL is returned.
+**				Otherwise a pointer to the first character of the first 
+**				occurrence of query is returned.
+*/
+
 #include <string.h>
 
 #include "libft.h"

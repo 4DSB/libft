@@ -10,6 +10,27 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. String dest, which is to be appended.
+**				2. String src, which needs to be appended.
+**				3. max size to be appended.
+** Operation:	Standard C library function, so followed man page.
+**				Concatenate strings. Safer replacement of strncat. Take the full
+**				size of the buffer (not just the length) and guarantee to
+**				NUL-terminate the result (as long as size is larger
+**				than 0 or, in the case of strlcat(), as long as there is at
+**				least one byte free in dst). Note that a byte for the NUL
+**				should be included in size. Only operates on NUL terminated
+**				strings. 
+Approach:		Function appends the NUL-terminated string src to the end of dst.
+**				It will append at most size - strlen(dst) - 1 bytes,
+**				NUL-terminating the result.
+**				The source and destination strings should not overlap, as the
+**				behavior is undefined.
+** Return:		The total length of the string they tried to create. Means the initial
+**				length of dst plus the length of src
+*/
+
 #include <string.h>
 
 #include "libft.h"

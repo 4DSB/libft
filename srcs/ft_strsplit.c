@@ -10,6 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to split.
+**				2. The delimiter character.
+** Operation:	Allocates (with malloc(3)) and returns an array of “fresh”
+**				strings (all ending with ’\0’, including the array itself)
+**				obtained by spliting s using the character c as a delimiter.
+**				Example: ft_strsplit("*hello*fellow***students*", ’*’) returns
+**				the array ["hello", "fellow", "students"].
+** Return:		The array of “fresh” strings result of the split.
+**				NULL, if the allocation fails the function.
+*/
+
 #include <stdlib.h>
 
 #include "libft.h"

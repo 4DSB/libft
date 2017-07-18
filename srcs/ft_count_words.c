@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to count the words in.
+**				2. The delimiter character.
+** Operation:	Counts the number of words seperated by delim
+**				Example: ft_count_words("*hello*fellow***students*", ’*’) 
+**				returns the integer 3.
+** Return:		Integer, number of words seperated by delim.
+*/
+
 #include "libft.h"
 
 unsigned	ft_count_words(char const *str, char delim)

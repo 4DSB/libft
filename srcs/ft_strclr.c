@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string that needs to be cleared..
+** Operation:	Sets every character of the string to the value ’\0’..
+** Return:		None.
+*/
+
 #include "libft.h"
 
 void	ft_strclr(char *as)

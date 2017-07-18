@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to a string.
+** Operation:	Reverses a string.
+** Return:		Returns the head of the string.
+*/
+
 #include "libft.h"
 
 char	*ft_strrev(char *str)

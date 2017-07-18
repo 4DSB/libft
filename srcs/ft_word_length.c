@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to count the characters length in.
+**				2. The delimiter character.
+** Operation:	Counts the number of words seperated before 1st delim
+**				Example: ft_word_length("hello*fellow***students*", ’*’) 
+**				returns the integer 5.
+** Return:		Integer, number of characters before 1st occurace of delim.
+*/
+
 #include "libft.h"
 
 unsigned	ft_word_length(char const *str, char delim)

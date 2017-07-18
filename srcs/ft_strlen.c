@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to a string.
+** Operation:	Computes the length of the string s.
+** Approach:	Standard C library function, so followed man page.
+** Return:		Number of characters that precede the terminating NUL.
+*/
+
 #include <string.h>
 
 #include "libft.h"

@@ -10,6 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string from which create the substring.
+**				2. The start index of the substring.
+**				3. The size of the substring.
+** Operation:	Allocates (with malloc(3)) and returns a “fresh” substring
+**				from the string given as argument. The substring begins at
+**				indexstart and is of size len. If start and len aren’t refering
+**				to a valid substring, the behavior is undefined.
+** Return:		The substring.
+**				NULL, if the allocation fails
+*/
+
 #include <string.h>
 
 #include "libft.h"

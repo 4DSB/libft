@@ -10,6 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to be trimed.
+** Operation:	Allocates (with malloc(3)) and returns a copy of the string
+**				given as argument without whitespaces at the beginning or at
+**				the end of the string. Will be considered as whitespaces the
+**				following characters ’ ’, ’\n’ and ’\t’. If s has no whitespaces
+**				at the beginning or at the end, the function returns a
+**				copy of s.
+** Return:		The “fresh” trimmed string or a copy of s.
+**				NULL, if the allocation fails
+*/
+
 #include <string.h>
 
 #include "libft.h"

@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to a string.
+**				2. Character to be set.
+** Operation:	Iterate through a string and set every character to c.
+** Return:		Head of the string, str.
+*/
+
 #include "libft.h"
 
 char				*ft_strset(char *str, char c)

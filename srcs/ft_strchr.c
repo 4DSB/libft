@@ -10,6 +10,19 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to a string.
+**				2. Character to be located.
+** Operation:	Standard C library function, so followed man page.
+**				The strchr() function locates the first occurrence of c
+**				(converted to a char) in the string pointed to by s.
+**				The terminating null character is considered to be part of the
+**				string; therefore if c is `\0', the functions locate the
+**				terminating `\0'.
+** Return:		A pointer to the located character.
+**				NULL if the character does not appear in the string.
+*/
+
 #include <string.h>
 
 #include "libft.h"

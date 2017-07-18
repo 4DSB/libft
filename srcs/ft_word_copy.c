@@ -10,6 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Destination string
+**				2. Source String.
+**				3. The delimiter character.
+** Operation:	Copies all characters before 1st delim to dest.
+**				Example: ft_word_copy("hello*fellow***students*", ’*’) 
+**				returns the string "hello".
+** Return:		Head to the new string.
+*/
+
 #include <string.h>
 
 #include "libft.h"

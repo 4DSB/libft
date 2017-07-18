@@ -10,6 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Pointer to first string.
+**				2. Pointer to second string.
+** Operation:	Simple function to find if two strings are identical.
+** Return:		1 if identical.
+**				0 if not identicle.
+*/
+
 #include "libft.h"
 
 int		ft_strequ(char const *s1, char const *s2)

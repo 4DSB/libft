@@ -10,6 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to map.
+**				2. The function to apply to each character of s.
+** Operation:	Applies the function f to each character of the string given
+**				as argument to create a “fresh” new string (with malloc(3))
+**				resulting from the successive applications of f..
+** Return:		The “fresh” string created from the successive applications
+**				of f.
+*/
+
 #include <string.h>
 
 #include "libft.h"
