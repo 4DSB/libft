@@ -10,6 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The letter.
+** Operation:	Converts a lower-case letter to the corresponding upper-case
+**				letter.
+** Return:		Upper case letter of there is one.
+**				Otherwise letter itself.
+*/
+
 #include "libft.h"
 
 int		ft_toupper(int c)

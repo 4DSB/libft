@@ -1,33 +1,11 @@
 
- ft_count_words.c
  ft_lst_delif.c
  ft_lst_find.c 
-
-ft_strlcpy:    [OK] [OK] [OK] [OK] [OK] {not protected}
-t_memdel:     [OK] [OK] [||]
-ft_strnew:     [OK] [OK] [OK] [OK]
-ft_strdel:     [OK] [OK] [||]
-ft_strclr:     [OK] [||]
-ft_striter:    [OK] [||]
-ft_striteri:   [OK] [||]
-ft_strmap:     [OK] [OK] [OK] [OK] [OK] [||]
-ft_strmapi:    [OK] [OK] [OK] [OK] [OK] [||]
-ft_strequ:     [OK] [OK] [OK] [||]
-ft_strnequ:    [OK] [OK] [OK] [||]
-ft_strsub:     [OK] [OK] [OK] [OK] [OK] [OK] [OK] [||]
-ft_strjoin:    [OK] [OK] [OK] [OK] [OK] [||]
-ft_strtrim:    [OK] [OK] [OK] [OK] [OK] [OK] [OK] [OK] [OK] [||]
-ft_strsplit:   [OK] [OK] [OK] [OK] [OK] [OK] [OK] [OK] [OK] [||]
-12
-24
+ ft_slicechr.c
+ wordchr
+ wordnchr
 
 added comments to all list functions. Made changes to ft_lstdel and ft_lstdelone, such that they use each other.
-/*
-** Argument: pointer to a string and an integer.
-** Operation: Writes 'n' zeroed bytes to the string 's'.
-** If n is zero, ft_bzero does nothing.
-** Unsigned char is being used as opration needs to be performed byte by byte.
-*/
 
 Doesn't work:
 ft_lstfpop -> If you are making NULL first how will you assign?
