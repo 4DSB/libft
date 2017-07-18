@@ -10,6 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Address of destination string.
+**				2. Address of source string.
+**				3. Number of bytes to be copied.
+** Operation: 	Copies len bytes from string src to string dst.
+** Approach: 	Standard C library function, followed the man page.
+**				The two strings may overlap; the copy is always done in a
+**				non-destructive manner by using a temorary variable 'tmp'.
+** Return: 		The original value(head) of dst.
+*/
+
 #include <stdlib.h>
 
 #include "libft.h"

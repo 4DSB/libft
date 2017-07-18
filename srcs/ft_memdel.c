@@ -10,6 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. A pointer’s address that needs its memory freed and set to
+				   NULL.
+** Operation: 	Takes as a parameter the address of a memory area that needs to
+**				be freed with free(3), then puts the pointer to NULL.
+** Return: 		The original value(head) of dst.
+*/
+
 #include <stdlib.h>
 
 #include "libft.h"

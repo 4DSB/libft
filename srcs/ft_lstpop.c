@@ -11,6 +11,7 @@
 /* ************************************************************************** */
 
 /*
+**				Doesn't work yet.
 ** Argument:	1. A pointer’s to the first link of a list.
 ** Operation: 	Pops the last element of the list.
 ** Return: 		A pointer’s to the first link of a list with the poped element.

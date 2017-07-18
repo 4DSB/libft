@@ -2,8 +2,7 @@
  ft_count_words.c
  ft_lst_delif.c
  ft_lst_find.c 
-ft_lstfpop -> If you are making NULL first how will you assign?
-ft_lstpop: doesn't it have a memory leak? You are poping but not freeing?
+
 ft_strlcpy:    [OK] [OK] [OK] [OK] [OK] {not protected}
 t_memdel:     [OK] [OK] [||]
 ft_strnew:     [OK] [OK] [OK] [OK]
@@ -29,3 +28,7 @@ added comments to all list functions. Made changes to ft_lstdel and ft_lstdelone
 ** If n is zero, ft_bzero does nothing.
 ** Unsigned char is being used as opration needs to be performed byte by byte.
 */
+
+Doesn't work:
+ft_lstfpop -> If you are making NULL first how will you assign?
+ft_lstpop

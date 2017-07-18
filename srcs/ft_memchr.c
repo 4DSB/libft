@@ -10,6 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Address of source string.
+**				2. Character whose occcurance is being found.
+**				3. Number of bytes to be copied if c is not found.
+** Operation: 	Locates the first occurrence of c (converted to an unsigned char)
+**				in string s.
+** Approach: 	Standard C library function, followed the man page.
+** Return: 		A pointer to the byte located.
+**				NULL if no such byte exists within n bytes.
+*/
+
 #include <string.h>
 
 #include "libft.h"

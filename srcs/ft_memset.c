@@ -10,6 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Address of destination string.
+**				2. Value to copied as unsigned char.
+**				3. Number of bytes to be copied.
+** Operation:	Writes len bytes of value c (converted to an unsigned char)
+**				to the string b.
+** Approach:	Standard C library function, followed the man page.
+** Return:		Returns its first argument.
+*/
+
 #include <string.h>
 
 #include "libft.h"

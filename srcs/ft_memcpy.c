@@ -10,6 +10,18 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. Address of destination string.
+**				2. Address of source string.
+**				3. Number of bytes to be copied.
+** Operation: 	Copies n bytes from memory area src to memory area dst.
+**				Both strings are assumed to be n bytes long.
+** Approach: 	Standard C library function, followed the man page.
+**				If dst and src overlap, behavior is undefined.  Applications 
+**				in which dst and src might overlap should use ft_memmove instead.
+** Return: 		The original value(head) of dst.
+*/
+
 #include <string.h>
 
 #include "libft.h"
