@@ -10,6 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The integer to print.
+**				2. The file descriptor.
+** Operation:	Outputs the integer n to the file descriptor fd.
+** Approach:	ABS returns the absolute value of a number. Appending all the
+**				digits in reverse order first and in the end reversing them
+**				using ft_strrev. Lastly, printing the string using putstr_fd.
+** Return:		None.
+*/
+
+
 #include <unistd.h>
 
 #include "libft.h"

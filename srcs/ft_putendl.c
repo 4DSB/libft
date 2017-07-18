@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to output.
+** Operation:	Outputs the string s to the standard output followed by a
+**				’\n’.
+** Return:		None.
+*/
+
 #include <unistd.h>
 
 #include "libft.h"

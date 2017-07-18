@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to output.
+** Operation:	Outputs the string s to the standard output.
+** Approach:	Uses ft_strlen to get the length and then write to ouput.
+** Return:		None.
+*/
+
 #include <unistd.h>
 
 #include "libft.h"

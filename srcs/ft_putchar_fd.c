@@ -10,6 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The character to output.
+**				2. The file descriptor.
+** Operation:	Outputs the char c to the file descriptor fd.
+** Return:		None.
+*/
+
 #include <unistd.h>
 
 #include "libft.h"

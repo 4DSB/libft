@@ -10,6 +10,12 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The character to output.
+** Operation:	Outputs the character c to the standard output.
+** Return:		None.
+*/
+
 #include <unistd.h>
 
 #include "libft.h"

@@ -10,6 +10,15 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The integer to print.
+** Operation:	Outputs the integer n to the standard output.
+** Approach:	ABS returns the absolute value of a number. Appending all the
+**				digits in reverse order first and in the end reversing them
+**				using ft_strrev. Lastly, printing the string using putstr.
+** Return:		None.
+*/
+
 #include <unistd.h>
 
 #include "libft.h"

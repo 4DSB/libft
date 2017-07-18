@@ -10,6 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to output.
+**				2. The file descriptor.
+** Operation:	Outputs the string s to the file descriptor fd followed by a 
+**				’\n’.
+** Return:		None.
+*/
+
 #include <unistd.h>
 
 #include "libft.h"

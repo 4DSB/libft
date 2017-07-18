@@ -10,6 +10,14 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+/*
+** Argument:	1. The string to output.
+**				2. The file descriptor.
+** Operation:	Outputs the string s to the file descriptor fd.
+** Approach:	Uses ft_strlen to get the length and then write to ouput.
+** Return:		None.
+*/
+
 #include <unistd.h>
 
 #include "libft.h"
