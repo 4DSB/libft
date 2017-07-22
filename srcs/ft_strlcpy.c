@@ -6,7 +6,7 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/11 06:53:54 by amittal           #+#    #+#             */
-/*   Updated: 2017/07/22 00:30:10 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/22 00:39:08 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@
 
 #include <string.h>
 
-//#include "libft.h"
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t sz)
 {
