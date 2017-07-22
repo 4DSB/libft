@@ -6,7 +6,7 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/18 08:32:07 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/29 14:31:33 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/21 23:59:06 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@
 ** Approach:	Standard C library function, hence followed man.
 ** Return:		If query is an empty string, str is returned.
 **				if query occurs nowhere in str, NULL is returned.
-**				Otherwise a pointer to the first character of the first 
+**				Otherwise a pointer to the first character of the first
 **				occurrence of query is returned.
 */
 

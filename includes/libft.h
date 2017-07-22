@@ -6,7 +6,7 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/07 11:29:19 by amittal           #+#    #+#             */
-/*   Updated: 2017/07/09 19:58:58 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/22 00:17:45 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,6 +92,7 @@ char				*ft_strnew(size_t size);
 void				ft_strdel(char **as);
 void				ft_strclr(char *s);
 void				ft_striter(char *s, void (*f)(char *));
+void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 char				*ft_strmap(char const *s, char (*f)(char));
 int					ft_strevery(char const *s, int (*f)(char));
 char				*ft_strmapi(char const *s, char (*f)(unsigned int, char));
@@ -117,29 +118,17 @@ void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
 void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstpush(t_list **alst, t_list *new);
-t_list				*ft_lstpop(t_list **alst);
-t_list				*ft_lstfpop(t_list **alst);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 void				ft_lstrev(t_list **begin_list);
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int					ft_lstevery(t_list *lst, int (*f)(t_list *elem));
-t_list				*ft_lst_find(t_list *begin_list, void *data_ref,
-								int (*cmp)());
-void				ft_lst_delif(t_list **alst, void *data_ref, int (*cmp)(),
-								void (*del)(void *, size_t));
 size_t				ft_count_digits(int value);
 char const			*ft_next_word(char const *str, char delim);
 char				*ft_word_copy(char *dest, char const *src, char delim);
 unsigned			ft_count_words(char const *str, char delim);
 unsigned			ft_word_length(char const *str, char delim);
-char				*ft_wordchr(const char *str, char c, char d);
-char				*ft_wordnchr(const char *str, char c, char d, size_t n);
 t_point				*ft_ptnew(int x, int y);
 t_point				*ft_ptsub(t_point *minuend, t_point *subtrahend);
-char				*ft_slicechr(t_slice *slc, char q);
-char				*ft_slicerpl(t_slice *slc, char q, char r);
-char				*ft_x_in_str(t_text *tx, char *pos, int x);
-char				*ft_xy_in_str(t_text *tx, char *pos, int x, int y);
 int					get_next_line(int const fd, char **line);
 
 #endif

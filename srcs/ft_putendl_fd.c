@@ -6,14 +6,14 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/18 08:15:20 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/21 19:16:35 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/21 23:59:43 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
 ** Argument:	1. The string to output.
 **				2. The file descriptor.
-** Operation:	Outputs the string s to the file descriptor fd followed by a 
+** Operation:	Outputs the string s to the file descriptor fd followed by a
 **				’\n’.
 ** Return:		None.
 */

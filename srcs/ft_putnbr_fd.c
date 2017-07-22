@@ -6,7 +6,7 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/18 08:15:30 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/21 19:10:30 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/22 00:00:16 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@
 **				using ft_strrev. Lastly, printing the string using putstr_fd.
 ** Return:		None.
 */
-
 
 #include <unistd.h>
 

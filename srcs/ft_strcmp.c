@@ -6,7 +6,7 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/07 11:29:19 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/23 16:42:24 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/22 00:06:48 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 **				The comparison is done using unsigned characters, so that `\200'
 **				is greater than `\0'.
 ** Return:		an integer greater than, equal to, or less than 0, according as
-**				the string s1 is greater than, equal to, or less than the string s2.
+**				the string s1 is greater than, equal to, or less than string s2.
 */
 
 #include "libft.h"

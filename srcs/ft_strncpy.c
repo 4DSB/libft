@@ -6,7 +6,7 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/07 11:29:19 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/21 13:16:47 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/22 00:02:40 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
 ** Approach:	Standard C library function, hence followed man page.
 ** Return:		Pointer to the head of dst.
 */
-
 
 #include <string.h>
 

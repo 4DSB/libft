@@ -6,7 +6,7 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/11 06:53:54 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/23 16:42:54 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/22 00:05:39 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,14 +21,14 @@
 **				than 0 or, in the case of strlcat(), as long as there is at
 **				least one byte free in dst). Note that a byte for the NUL
 **				should be included in size. Only operates on NUL terminated
-**				strings. 
-Approach:		Function appends the NUL-terminated string src to the end of dst.
+**				strings.
+**Approach:		Function appends the NUL-terminated string src to end of dst.
 **				It will append at most size - strlen(dst) - 1 bytes,
 **				NUL-terminating the result.
 **				The source and destination strings should not overlap, as the
 **				behavior is undefined.
-** Return:		The total length of the string they tried to create. Means the initial
-**				length of dst plus the length of src
+** Return:		The total length of the string they tried to create. Means the
+**				initial length of dst plus the length of src
 */
 
 #include <string.h>

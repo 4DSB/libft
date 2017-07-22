@@ -6,10 +6,9 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/23 21:45:23 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/23 21:45:23 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/21 23:57:30 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 /*
 ** Argument:	1. Pointer to a string.
@@ -19,7 +18,6 @@
 ** Return:		0, if the function was not successfully applied.
 **				1, if the function was successfully applied.
 */
-
 
 #include <string.h>
 

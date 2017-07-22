@@ -6,7 +6,7 @@
 /*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/11 06:53:54 by amittal           #+#    #+#             */
-/*   Updated: 2017/06/23 16:42:57 by amittal          ###   ########.fr       */
+/*   Updated: 2017/07/22 00:30:10 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,20 +20,23 @@
 **				The source and destination strings should not overlap, as the
 **				behavior is undefined
 ** Approach: 	Standard C Library Function, so followed man.
-**				function appends the NUL-terminated string src to the end of dst.
+**				function appends the NULterminated string src to the end of dst
 **				It will append at most size - strlen(dst) - 1 bytes,
 **				NUL-terminating the result
 ** Return:		The total length of the string they tried to create that means
 **				the length of src.
 */
+
 #include <string.h>
 
-#include "libft.h"
+//#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t sz)
 {
 	const char	*head;
 
+	if (!src)
+		return (0);
 	head = src;
 	while (sz > 1)
 	{
