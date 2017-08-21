@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: amittal <anurag.213@gmail.com>             +#+  +:+       +#+        */
+/*   By: amittal <amittal@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/04/07 11:29:19 by amittal           #+#    #+#             */
-/*   Updated: 2017/07/22 00:17:45 by amittal          ###   ########.fr       */
+/*   Updated: 2017/08/21 01:21:30 by amittal          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,7 @@ void				*ft_memchr(const void *s, int c, size_t n);
 int					ft_memcmp(const void *s1, const void *s2, size_t n);
 size_t				ft_strlen(const char *str);
 char				*ft_strdup(const char *src);
+char				*ft_strfjoin(char *s1, char *s2);
 char				*ft_strcpy(char *dest, const char *src);
 char				*ft_strncpy(char *dest, const char *src, size_t n);
 size_t				ft_strlcpy(char *dest, const char *src, size_t n);
@@ -122,6 +123,10 @@ void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 void				ft_lstrev(t_list **begin_list);
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int					ft_lstevery(t_list *lst, int (*f)(t_list *elem));
+void				ft_lstsort(t_list **list,
+	int (*cmp)(void *a_, void *b_), void *(*get_data)(t_list *e));
+void				ft_lstiter_if(t_list *lst, void (*f)(t_list *e),
+							int (*g)(t_list *e));
 size_t				ft_count_digits(int value);
 char const			*ft_next_word(char const *str, char delim);
 char				*ft_word_copy(char *dest, char const *src, char delim);
